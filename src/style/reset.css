@@ -1,0 +1,115 @@
+@import '//at.alicdn.com/t/font_2247343_f4mfliiu3y.css';
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1280px;
+}
+.el-card__body{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .el-input__inner{
+      line-height: 34px;
+      height: 34px;
+  }
+
+.el-cascader-panel {
+  height: 200px;
+}
+  /* textarea{
+    resize: none !important;
+    height: 100%;
+    padding-left: 50px !important;
+  } */
+  .el-dialog{
+    width: 520px !important;
+  }
+  /* input:hover,textarea:hover{
+    border: 1px solid #0164F6 !important;
+  } */
+  .hover-color:hover{
+    color: #0164F6 !important;
+  }
+  .el-select-dropdown__item.selected{
+    color: #0164F6;
+  }
+  .el-select .el-input__inner:focus{
+    border-color: #0164F6;
+  }
+  .el-select .el-input.is-focus .el-input__inner{
+    border-color: #ccc;
+  }
+  .el-input__inner:focus{
+    border-color: #0164F6 !important;
+  }
+  .el-textarea__inner:focus{
+    border-color: #0164F6 !important;
+  }
+  .el-table .ascending .sort-caret.ascending{
+    border-bottom-color: #fff;
+  }
+  .el-table .descending .sort-caret.descending{
+    border-top-color: #fff;
+  }
+  .more-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 122px;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled):hover{
+    color: #0164F6;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled).active{
+    background-color: #0164F6;
+    color: #fff;
+  }
+  /* .el-button:focus, .el-button:hover{
+    color: #0164F6;
+    background-color: #e7faf7;
+    border: 1px solid #0164F6;
+  } */
+  .el-alert--success.is-light .el-alert__description{
+    color: #0164F6;
+  }
+  /* .el-dialog{
+    width: 600px !important;
+  } */
+  .el-button--primary {
+    background: #0164F6 !important;
+    border: 1px solid #0164F6 !important;
+    color: #fff !important;
+  }
+  .el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close{
+    color: #0164F6;
+  }
+  .el-date-table td.today span{
+    color: #0164F6 ;
+  }
+  .el-date-table td.available:hover{
+    color: #0164F6;
+  }
+  .el-date-editor .el-range__icon{
+    line-height: 26px;
+  }
+  .el-date-table td.end-date span, .el-date-table td.start-date span{
+    background: #0164F6;
+  }
+  .el-message-box__headerbtn:focus .el-message-box__close, .el-message-box__headerbtn:hover .el-message-box__close{
+    color: #0164F6;
+  }
+  .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #0164F6;
+    border-color: #0164F6;
+  }
+  .horizontal-collapse-transition{
+    transition:0s width ease-in-out
+  }
+  tr{
+    font-size: 16px !important;
+    height:60px
+  }
+  th{
+    padding: 3px 0 !important;
+    height:60px
+  }

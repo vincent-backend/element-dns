@@ -1,0 +1,26 @@
+（1）utils/request.js  axios配置    
+        baseURL:'http://182.61.43.253:8088/api'   //修改域名需要修改
+
+（2）router/index.js  浏览器窗口名
+        document.title=to.meta.title+'-Dns'
+
+（3）/views/panel/index.vue 图表信息
+         echart配置说明
+         1.series为数组 每个对象代表对应线
+         2.yAxis min max 为y轴对应刻度值
+
+（4）el-table标签 :data绑定数组 自动循环得到每行数据 
+         el-table-column标签 prop属性绑定的字段为对应列数据 如果需要自定义列 需要写在template标签中
+        
+（5）views/login/index.vue 验证码路径
+       修改域名时验证码路径需要修改
+      <img
+          :src="'http://182.61.43.253:8088'+src"
+          alt
+          style="width:100px;height:45px;vertical-align:middle"
+        />
+        
+（6）每页显示多少条
+        el-pagination 
+        :page-sizes="[5, 10, 15, 20]" 每页显示多少条选项
+        :page-size="pageSize"当前显示多少条
